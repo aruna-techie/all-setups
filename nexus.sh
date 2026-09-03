@@ -1,3 +1,19 @@
+======new updates================
+NEXUS SETUP COMMANDS : (copy paste these commands one by one)
+
+
+yum install java-21-amazon-corretto -y
+
+cd /opt
+wget https://download.sonatype.com/nexus/3/nexus-3.96.0-09-linux-x86_64.tar.gz
+tar -zxvf nexus-3.96.0-09-linux-x86_64.tar.gz
+useradd nexus
+chown -R nexus:nexus nexus-3.96.0-09 sonatype-work
+su - nexus
+cd /opt/nexus-3.96.0-09/bin/
+./nexus start
+
+==================================
 sudo yum update -y
 sudo yum install wget -y
 sudo yum install java-17-amazon-corretto-jmods -y
