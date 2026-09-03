@@ -13,6 +13,9 @@ su - nexus
 cd /opt/nexus-3.96.0-09/bin/
 ./nexus start
 
+once login , there is issue with nexus so again restart the server.
+./nexus restart
+again login with username:admin and password : you created
 ==================================
 sudo yum update -y
 sudo yum install wget -y
