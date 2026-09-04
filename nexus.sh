@@ -5,7 +5,11 @@ NEXUS SETUP COMMANDS : (copy paste these commands one by one)
 yum install java-21-amazon-corretto -y
 
 cd /opt
+go to official documentation of nexus:
+https://help.sonatype.com/en/download.html 
+copy the url :for unix/linux link
 wget https://download.sonatype.com/nexus/3/nexus-3.96.0-09-linux-x86_64.tar.gz
+wget https://download.sonatype.com/nexus/3/nexus-3.96.0-09-linux-x86_64.tar.gz
 tar -zxvf nexus-3.96.0-09-linux-x86_64.tar.gz
 useradd nexus
 chown -R nexus:nexus nexus-3.96.0-09 sonatype-work
